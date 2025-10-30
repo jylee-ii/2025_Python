@@ -1,7 +1,7 @@
 import tkinter as tk
 import random
 import time
-
+ 
 
 def animate_text(canvas, text_id):
     for i in range(10):

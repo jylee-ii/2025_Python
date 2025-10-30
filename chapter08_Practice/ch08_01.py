@@ -1,7 +1,7 @@
 import tkinter as tk
 import random
 
-class MovingShapeApp:
+class MovingShapeApp: 
     def __init__(self,root):
         self.root=root
         self.root.title("Moving Shape App")
