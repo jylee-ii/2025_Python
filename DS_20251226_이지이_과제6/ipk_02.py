@@ -25,7 +25,6 @@ root=tk.Tk()
 root.title("문제2")
 root.geometry("400x200")
 
-
 # 라벨 생성
 tk.Label(root, text="동물을 선택해주세요.").pack(pady=10)
 

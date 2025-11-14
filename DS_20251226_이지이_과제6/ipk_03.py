@@ -50,7 +50,6 @@ tk.Label(root, textvariable=info).pack()
 # 라디오버튼 프레임
 f=tk.Frame(root)
 f.pack(pady=6, anchor="center")
-
 # 라디오버튼 생성
 tk.Radiobutton(f, text="사각형", value="rect", variable=var).pack(side="left", padx=5)
 tk.Radiobutton(f, text="원", value="circle", variable=var).pack(side="left", padx=5)

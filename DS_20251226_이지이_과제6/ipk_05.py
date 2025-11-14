@@ -87,5 +87,4 @@ f_btn=Frame(root)
 f_btn.pack(pady=5)
 Button(f_btn, text="등록하기", width=12, command=register).pack(side="left", padx=15)
 Button(f_btn, text="초기화", width=12, command=reset).pack(side="left", padx=15)
-
 root.mainloop()

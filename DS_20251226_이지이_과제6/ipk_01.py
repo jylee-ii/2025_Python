@@ -14,7 +14,6 @@ class Truck(Vehicle):
     def drive(self):
         return f"트럭 {self.name}가 주행합니다."
 
-
 # 객체 생성
 car=Car("car1")
 truck=Truck("truck1")

@@ -16,7 +16,7 @@ class Student(Person):
 
     # 과목 리스트 초기화
     def clearCourses(self):
-        self.classes.clear()
+        self.classes.clear() 
 
 # 객체 생성
 root=Tk()
